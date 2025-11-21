@@ -1,0 +1,112 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.iphone img {
+  height: 95vh;
+  width: 25vw;
+  position: absolute;
+}
+
+.notiArea {
+  height: 15px;
+  width: 25vw;
+  position: relative;
+  top: 23px;
+  color: white;
+}
+
+.calculatorbtns {
+  height: 8vh;
+  width: 20vw;
+  position: relative;
+  top: 106px;
+  left: 35px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+}
+
+.left {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+#gps {
+  height: 15px;
+  width: 15px;
+}
+
+.displayAfter {
+  height: 50px;
+  width: 20vw;
+  position: relative;
+  top: 100px;
+  left: 35px;
+  color: rgb(92, 92, 95);
+  font-size: 25px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  overflow: hidden;
+}
+
+.displaybox {
+  height: 50px;
+  width: 20vw;
+  position: relative;
+  top: 100px;
+  left: 35px;
+  color: white;
+  font-size: 50px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  overflow: hidden;
+}
+
+svg {
+  height: 25px;
+  fill: white;
+}
+
+.btn {
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+  background-color: #2a2a2c;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn:active {
+  background-color: #727272;
+}
+
+.btnGrey {
+  background-color: rgb(92, 92, 95);
+}
+
+.btnGrey:active {
+  background-color: #8c8c8c;
+}
+
+.btnYellow {
+  background-color: rgb(255, 159, 10);
+}
+
+.btnYellow:active {
+  background-color: #fcc78d;
+}
+
+.darklightMode img {
+  height: 16px;
+  width: 16px;
+}
